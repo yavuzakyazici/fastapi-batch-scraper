@@ -21,3 +21,14 @@ class Log(Base):
     url = Column(String(255))
     timestamp = Column(String(100))
     status_code = Column(Integer)
+
+
+class ScrapeResult(Base):
+    __tablename__ = "scrape_results"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    batch_id = Column(String(255))
+    url = Column(String(255))
+    title = Column(String(255))
+    status_code = Column(Integer)
+    timestamp = Column(String(255))

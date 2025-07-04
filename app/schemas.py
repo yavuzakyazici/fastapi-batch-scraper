@@ -18,11 +18,13 @@ class TokenData(BaseModel):
     id: str | None = None
     scopes: list[str] = []
 
-class ScrapeRequest(BaseModel):
-    url: str
-
 class Log(BaseModel):
     url: str
     timestamp: str
     status_code: int
 
+class ScrapeRequest(BaseModel):
+    url: str
+
+class BatchScrapeRequests(BaseModel):
+    requests:list
