@@ -7,10 +7,10 @@ This service lets you submit a batch of URLs, scrape their HTML titles in the ba
 ![FastAPI](https://img.shields.io/badge/built_with-FastAPI-blue)
 
 
-![Scrape Request](app/assets/scrape_request.png)
-![Scrape Response](app/assets/scrape_response.png)
-![Batch Scrape Request](app/assets/batch_scrape_request.png)
-![Batch Scrape Response](app/assets/batch_scrape_response.png)
+![Scrape Request](assets/scrape_request.png)
+![Scrape Response](assets/scrape_response.png)
+![Batch Scrape Request](assets/batch_scrape_request.png)
+![Batch Scrape Response](assets/batch_scrape_response.png)
 
 ---
 
