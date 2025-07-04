@@ -4,6 +4,9 @@ A fully asynchronous batch web scraping API built with **FastAPI**, **httpx**, a
 
 This service lets you submit a batch of URLs, scrape their HTML titles in the background, and retrieve the results by `batch_id`.
 
+![FastAPI](https://img.shields.io/badge/built_with-FastAPI-blue)
+
+
 ![Scrape Request](app/assets/scrape_request.png)
 ![Scrape Response](app/assets/scrape_response.png)
 ![Batch Scrape Request](app/assets/batch_scrape_request.png)
